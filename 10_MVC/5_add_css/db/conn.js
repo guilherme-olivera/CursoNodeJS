@@ -1,7 +1,8 @@
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize('nodemvc', 'root', '', {
-  host: 'localhost',
+const sequelize = new Sequelize('HostelHorseDB', 'root', '', {
+  host: '127.0.0.1',
+  password: 'root',
   dialect: 'mysql',
 })
 
